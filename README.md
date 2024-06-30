@@ -1,8 +1,6 @@
 # Forecasting Model - Machine Learning for Time Series
 
-The core challenge of this project lies in the need to understand and predict energy consumption and production in Turkey over several years, using a detailed dataset comprising hourly data. This task is essential to ensure the stability and efficiency of the country's power grid, as well as to effectively plan energy supply and future investments in the energy sector. The complexity of the Turkish energy landscape, characterized by a diversity of energy production sources and demand variations influenced by multiple and variable factors, poses a significant challenge. Therefore, the challenge is to accurately and efficiently analyze and model these complex data to provide reliable and actionable forecasts for policymakers, grid operators, and energy market participants. 
-
-The provided dataset offers a detailed insight into Turkey's energy landscape between 2018 and 2023, presenting crucial information on energy consumption and production, as well as associated prices. With hourly data, it allows for granular analysis of trends and variations in electricity demand and generation throughout the period considered. The amount of energy consumed, measured in megawatt-hours (MWh) per hour, is a fundamental indicator for assessing the nation's energy needs.
+The core challenge of this project lies in the need to understand and predict energy consumption and production in Turkey over several years, using a detailed dataset comprising hourly data. The provided dataset offers a detailed insight into Turkey's energy landscape between 2018 and 2023, presenting crucial information on energy consumption and production, as well as associated prices. With hourly data, it allows for granular analysis of trends and variations in electricity demand and generation throughout the period considered. The amount of energy consumed, measured in megawatt-hours (MWh) per hour, is a fundamental indicator for assessing the nation's energy needs.
 
 To address the challenge of forecasting energy consumption and production in Turkey, we developed five distinct models, each bringing a unique approach to short-term forecasting. First, we used the naive model as a benchmark, providing a baseline for evaluating the performance of other models. Next, we explored two univariate analysis approaches, namely ARIMA and Prophet, which focus on modeling trends and patterns in energy consumption and production data without considering other variables.
 
@@ -12,7 +10,7 @@ Our primary goal was to achieve short-term forecasts, specifically focusing on p
 
 # Results : 
 <p align="center">
-  <img width="500" alt="Capture d’écran 2024-06-30 à 10 00 33" src="https://github.com/Mayslimani1/Times-Series/assets/154423073/58d81900-28d8-48ba-886e-7e15c42fb301">
+  <img width="450" alt="Capture d’écran 2024-06-30 à 10 00 33" src="https://github.com/Mayslimani1/Times-Series/assets/154423073/58d81900-28d8-48ba-886e-7e15c42fb301">
 </p>
 
 Basic models, Seasonal naive and Naive mean 24 hours, showed relatively poor performance with high MAE and RMSE and negative R2 values, indicating that these models are not adequate for capturing the complexity of the data. These simplistic approaches can serve as baselines for comparison, but they are generally not sufficient for accurate predictions as they do not account for trends, seasonality, or other factors influencing the time series.
