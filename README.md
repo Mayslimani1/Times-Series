@@ -10,10 +10,10 @@ Concurrently, we also implemented two multivariate analysis approaches, LGBM and
 
 Our primary goal was to achieve short-term forecasts, specifically focusing on predicting the 6th hour based on data from the previous 5 hours. This approach enables increased responsiveness to rapid fluctuations in energy demand and production, which is crucial for ensuring grid stability and meeting real-time needs. By combining these different approaches, we were able to evaluate the relative performance of each model and identify the most effective methods for short-term forecasting in the Turkish energy context. This, in turn, helped develop valuable tools and techniques for efficient grid management and energy planning in the country.
 
-# 
-<img width="252" alt="Capture d’écran 2024-06-30 à 10 00 33" src="https://github.com/Mayslimani1/Times-Series/assets/154423073/58d81900-28d8-48ba-886e-7e15c42fb301">
-
-
+# Results : 
+<p align="center">
+  <img width="252" alt="Capture d’écran 2024-06-30 à 10 00 33" src="https://github.com/Mayslimani1/Times-Series/assets/154423073/58d81900-28d8-48ba-886e-7e15c42fb301">
+</p>
 
 Basic models, Seasonal naive and Naive mean 24 hours, showed relatively poor performance with high MAE and RMSE and negative R2 values, indicating that these models are not adequate for capturing the complexity of the data. These simplistic approaches can serve as baselines for comparison, but they are generally not sufficient for accurate predictions as they do not account for trends, seasonality, or other factors influencing the time series.
 
